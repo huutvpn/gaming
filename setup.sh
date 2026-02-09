@@ -439,3 +439,7 @@ echo -e "
 "
 read -n 1 -s -r -p "Pencet [ Enter ] Untuk Reboot"
 reboot
+
+# FIX install bot command
+cp bot.sh /usr/bin/bot
+chmod +x /usr/bin/bot
