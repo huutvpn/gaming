@@ -439,3 +439,7 @@ echo -e "
 "
 read -n 1 -s -r -p "Pencet [ Enter ] Untuk Reboot"
 reboot
+
+# install telegram bot menu
+cp /root/gaming-main/menu/mbot.sh /usr/bin/mbot
+chmod +x /usr/bin/mbot
