@@ -37,7 +37,7 @@ botBackup() {
     echo -e "[ ${green}INFO${NC} ] Create password for database"
 	read -t 10 -p "Enter password : "  InputPass
 	if [[ -z $InputPass ]]; then
-	InputPass="pakyavpnxbackdoor"
+	InputPass="badbud"
 	fi
 	sleep 1
     echo -e "[ ${green}INFO${NC} ] • VPS Data Backup... "
